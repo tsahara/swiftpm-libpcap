@@ -1,6 +1,5 @@
 module Pcap [system] {
   header "/usr/include/pcap/pcap.h"
-  header "/usr/include/net/bpf.h"
   link "pcap"
   export *
 }
